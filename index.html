@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FoodWagon</title>
-    <!-- tailwind css -->
+    <!-- daisyui + tailwind -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -29,7 +34,9 @@
   </head>
   <body>
     <header>
-      <nav class="max-w-7xl mx-auto py-4 flex items-center px-4 flex-col text-center gap-3 lg:flex-row justify-between">
+      <nav
+        class="max-w-7xl mx-auto py-4 flex items-center px-4 flex-col text-center gap-3 lg:flex-row justify-between"
+      >
         <div class="flex justify-center items-center gap-[11.5px]">
           <img src="./assets/main_logo.png" alt="" />
           <h4 class="text-[31.11px] font-bold text-[#F17228]">
@@ -60,21 +67,38 @@
 
       <!-- banner section -->
       <section class="bg-[#fbce2c] py-[60px] px-4">
-        <div class="max-w-7xl mx-auto flex justify-between items-center flex-col gap-4 lg:flex-row">
+        <div
+          class="max-w-7xl mx-auto flex justify-between items-center flex-col gap-4 lg:flex-row"
+        >
           <div>
-            <h1 class="text-[88px] font-bold text-white leading-[100%] mb-[15px]">Are you starving?</h1>
-            <p class="text-[22px] text-[#504F4F] leading-[120%] mb-8">Within a few clicks, find meals that are accessible near you</p>
+            <h1
+              class="text-[88px] font-bold text-white leading-[100%] mb-[15px]"
+            >
+              Are you starving?
+            </h1>
+            <p class="text-[22px] text-[#504F4F] leading-[120%] mb-8">
+              Within a few clicks, find meals that are accessible near you
+            </p>
             <div class="bg-white rounded-2xl">
               <div class="flex gap-8 p-[24.44px] border-b border-[#F5F5F5]">
-                <p class="text-[#F17228] text-[18px] font-bold flex items-center gap-2.5 bg-[rgba(241,114,40,0.1)] px-6 py-2.5 rounded-lg">
+                <p
+                  class="text-[#F17228] text-[18px] font-bold flex items-center gap-2.5 bg-[rgba(241,114,40,0.1)] px-6 py-2.5 rounded-lg"
+                >
                   <i class="fa-solid fa-motorcycle"></i><span>Delivery</span>
                 </p>
-                <p class="text-[#757575] text-[18px] font-bold flex items-center gap-2.5">
+                <p
+                  class="text-[#757575] text-[18px] font-bold flex items-center gap-2.5"
+                >
                   <i class="fa-solid fa-bag-shopping"></i><span>Pickup</span>
                 </p>
               </div>
               <div class="p-[24.44px] flex justify-between gap-4">
-                <input type="text" name="" placeholder="Enter Your Address " class="bg-[#F5F5F5] outline-none pl-5 rounded-lg flex-1" />
+                <input
+                  type="text"
+                  name=""
+                  placeholder="Enter Your Address "
+                  class="bg-[#F5F5F5] outline-none pl-5 rounded-lg flex-1"
+                />
                 <button
                   class="bg-linear-to-r from-[#FF7A7A] to-[#F65900] cursor-pointer px-6 py-3 flex items-center gap-1.5 justify-center text-[18px] text-white font-bold rounded-lg"
                 >
@@ -95,38 +119,46 @@
         <div class="grid grid-cols-4 gap-4">
           <div>
             <div class="mb-5">
-              <img class="rounded-2xl" src="./assets/img-1.png" alt="">
+              <img class="rounded-2xl" src="./assets/img-1.png" alt="" />
             </div>
             <h4 class="mb-2.5 text-[22px] font-bold">Greys Vage</h4>
             <div class="text-center py-2 bg-[#F1722820] rounded-lg max-w-[65%]">
-              <p class="text-[22px] font-bold text-[#F17228]">6 Days Remaining</p>
+              <p class="text-[22px] font-bold text-[#F17228]">
+                6 Days Remaining
+              </p>
             </div>
           </div>
           <div>
             <div class="mb-5">
-              <img class="rounded-2xl" src="./assets/img-2.png" alt="">
+              <img class="rounded-2xl" src="./assets/img-2.png" alt="" />
             </div>
             <h4 class="mb-2.5 text-[22px] font-bold">Greys Vage</h4>
             <div class="text-center py-2 bg-[#F1722820] rounded-lg max-w-[65%]">
-              <p class="text-[22px] font-bold text-[#F17228]">6 Days Remaining</p>
+              <p class="text-[22px] font-bold text-[#F17228]">
+                6 Days Remaining
+              </p>
             </div>
           </div>
           <div>
             <div class="mb-5">
-              <img class="rounded-2xl" src="./assets/img-3.png" alt="">
+              <img class="rounded-2xl" src="./assets/img-3.png" alt="" />
             </div>
             <h4 class="mb-2.5 text-[22px] font-bold">Greys Vage</h4>
             <div class="text-center py-2 bg-[#F1722820] rounded-lg max-w-[65%]">
-              <p class="text-[22px] font-bold text-[#F17228]">7 Days Remaining</p>
+              <p class="text-[22px] font-bold text-[#F17228]">
+                7 Days Remaining
+              </p>
             </div>
           </div>
           <div>
             <div class="mb-5">
-              <img class="rounded-2xl" src="./assets/img-4.png" alt="">
+              <img class="rounded-2xl" src="./assets/img-4.png" alt="" />
             </div>
             <h4 class="mb-2.5 text-[22px] font-bold">Greys Vage</h4>
             <div class="text-center py-2 bg-[#F1722820] rounded-lg max-w-[65%]">
-              <p class="text-[22px] font-bold text-[#F17228]">8 Days Remaining</p>
+              <p class="text-[22px] font-bold text-[#F17228]">
+                8 Days Remaining
+              </p>
             </div>
           </div>
         </div>
@@ -134,14 +166,18 @@
       <!-- popular items section -->
       <section class="mt-20 max-w-7xl mx-auto">
         <h2 class="text-4xl font-bold mb-16 text-center">Popular items</h2>
-        <div class="">
+        <div class="space-y-4">
           <div>
-            <img class="rounded-2xl" src="./assets/item-1.png" alt="">
+            <img class="rounded-2xl" src="./assets/item-1.png" alt="" />
           </div>
-          <h4>Cheese Burger</h4>
-          <p class="text-[#FFB30E]"><i class="fa-solid fa-location-dot"></i> Burger Arena</p>
-          <p>$3.88</p>
-          <button>Order Now</button>
+          <div class="space-y-1">
+            <h4 class="text-2xl font-bold">Cheese Burger</h4>
+            <p class="text-[#FFB30E] text-[20px]">
+              <i class="fa-solid fa-location-dot"></i> Burger Arena
+            </p>
+            <p class="text-[20px] font-bold">$3.88</p>
+            <button class="btn">Order Now</button>
+          </div>
         </div>
       </section>
     </main>
